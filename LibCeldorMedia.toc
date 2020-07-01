@@ -1,0 +1,9 @@
+## Interface: 80300
+## Title: LibCeldorMedia
+## Author: Celdor
+## License: All Rights Reserved
+## Notes: Missing media files for Addons and WeakAuras
+## DefaultState: enabled
+
+embeds.xml
+core.lua
