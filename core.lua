@@ -9,13 +9,25 @@ local media = LibStub("LibSharedMedia-3.0")
 local folder = [[Interface\Addons\]] .. addonName .. [[\Libs\Media\]]
 
 local registerMedia = {
+    -- status bars
     {"statusbar", "WorldState Score", [[Interface\WorldStateFrame\WORLDSTATEFINALSCORE-HIGHLIGHT.BLP]]},
-    {"font", "Accidental Presidency", folder .. [[Accidental Presidency.ttf]]},
-    {"font", "FORCED SQUARE", folder .. [[FORCED SQUARE.ttf]]},
-    {"font", "Harry P", folder .. [[HARRYP__.TTF]]},
-    {"font", "Nueva Std Cond", folder .. [[NuevaStd-Cond.otf]]},
-    {"font", "Oswald", folder .. [[Oswald-Regular.otf]]},
-    {"font", "TrashHand", folder .. [[TrashHand.TTF]]},
+    -- By Celdor
+    {"statusbar", "BarMetal", folder .. [[Statusbars\bar_metal.tga]]},
+    {"statusbar", "Fibre", folder .. [[Statusbars\fibre.tga]]},   -- by Celdor
+    {"statusbar", "Fibre transparent", folder .. [[Statusbars\fibre_transparent.tga]]},   -- by Celdor
+
+    -- Fonts
+    -- From Details
+    {"font", "Accidental Presidency", folder .. [[Fonts\Accidental Presidency.ttf]]},
+    {"font", "FORCED SQUARE", folder .. [[Fonts\FORCED SQUARE.ttf]]},
+    {"font", "Harry P", folder .. [[Fonts\HARRYP__.TTF]]},
+    {"font", "Nueva Std Cond", folder .. [[Fonts\NuevaStd-Cond.otf]]},
+    {"font", "Oswald", folder .. [[Fonts\Oswald-Regular.otf]]},
+    {"font", "TrashHand", folder .. [[Fonts\TrashHand.TTF]]},
+
+    -- Sounds
+    -- From ElvUI
+    {"sound", "Whisper Alert", folder .. [[Sounds\whisper.ogg]]},
 }
 
 for _, m in ipairs(registerMedia) do
