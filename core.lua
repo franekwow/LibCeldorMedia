@@ -9,12 +9,18 @@ local media = LibStub("LibSharedMedia-3.0")
 local folder = [[Interface\Addons\]] .. addonName .. [[\Libs\Media\]]
 
 local registerMedia = {
-    -- status bars
+    -- Status bars
+    -- Blizzard
     {"statusbar", "WorldState Score", [[Interface\WorldStateFrame\WORLDSTATEFINALSCORE-HIGHLIGHT.BLP]]},
     -- By Celdor
-    {"statusbar", "BarMetal", folder .. [[Statusbars\bar_metal.tga]]},
-    {"statusbar", "Fibre", folder .. [[Statusbars\fibre.tga]]},   -- by Celdor
-    {"statusbar", "Fibre transparent", folder .. [[Statusbars\fibre_transparent.tga]]},   -- by Celdor
+    {"statusbar", "Celdor Metal", folder .. [[Statusbars\bar_metal.tga]]},
+    {"statusbar", "Celdor Concrete", folder .. [[Statusbars\concrete-bar.tga]]},   -- by Celdor
+    {"statusbar", "Celdor Fibre Transparent", folder .. [[Statusbars\fibre_transparent.tga]]},   -- by Celdor
+    {"statusbar", "Celdor Fibre", folder .. [[Statusbars\fibre.tga]]},   -- by Celdor
+    {"statusbar", "Celdor Metal 2", folder .. [[Statusbars\metal.tga]]},   -- by Celdor
+    {"statusbar", "Celdor Metal 3", folder .. [[Statusbars\metal3.tga]]},   -- by Celdor
+    {"statusbar", "Celdor Smooth", folder .. [[Statusbars\smooth.tga]]},   -- by Celdor
+    {"statusbar", "Celdor Wooden", folder .. [[Statusbars\wooden-bar.tga]]},   -- by Celdor
 
     -- Fonts
     -- From Details
