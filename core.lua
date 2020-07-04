@@ -10,17 +10,22 @@ local folder = [[Interface\Addons\]] .. addonName .. [[\Libs\Media\]]
 
 local registerMedia = {
     -- Status bars
+    -- By Celdor
+    {"statusbar", "Celdor Concave Grey", folder .. [[Statusbars\concave_grey.tga]]},
+    {"statusbar", "Celdor Concave", folder .. [[Statusbars\concave.tga]]},
+    {"statusbar", "Celdor Concrete", folder .. [[Statusbars\concrete-bar.tga]]},
+    {"statusbar", "Celdor Fibre Grey", folder .. [[Statusbars\fibre_grey.tga]]},
+    {"statusbar", "Celdor Fibre Transparent", folder .. [[Statusbars\fibre_transparent.tga]]},
+    {"statusbar", "Celdor Fibre", folder .. [[Statusbars\fibre.tga]]},
+    {"statusbar", "Celdor Metal Solid", folder .. [[Statusbars\metal_solid.tga]]},
+    {"statusbar", "Celdor Metal Transparent", folder .. [[Statusbars\metal_transparent.tga]]},
+    {"statusbar", "Celdor Metal", folder .. [[Statusbars\metal.tga]]},
+    {"statusbar", "Celdor Motif", folder .. [[Statusbars\motif.tga]]},
+    {"statusbar", "Celdor Simplistic", folder .. [[Statusbars\simplistic.tga]]},
+    {"statusbar", "Celdor Smooth", folder .. [[Statusbars\smooth.tga]]},
+    {"statusbar", "Celdor Wooded Bar", folder .. [[Statusbars\wooden.tga]]},
     -- Blizzard
     {"statusbar", "WorldState Score", [[Interface\WorldStateFrame\WORLDSTATEFINALSCORE-HIGHLIGHT.BLP]]},
-    -- By Celdor
-    {"statusbar", "Celdor Metal", folder .. [[Statusbars\bar_metal.tga]]},
-    {"statusbar", "Celdor Concrete", folder .. [[Statusbars\concrete-bar.tga]]},   -- by Celdor
-    {"statusbar", "Celdor Fibre Transparent", folder .. [[Statusbars\fibre_transparent.tga]]},   -- by Celdor
-    {"statusbar", "Celdor Fibre", folder .. [[Statusbars\fibre.tga]]},   -- by Celdor
-    {"statusbar", "Celdor Metal 2", folder .. [[Statusbars\metal.tga]]},   -- by Celdor
-    {"statusbar", "Celdor Metal 3", folder .. [[Statusbars\metal3.tga]]},   -- by Celdor
-    {"statusbar", "Celdor Smooth", folder .. [[Statusbars\smooth.tga]]},   -- by Celdor
-    {"statusbar", "Celdor Wooden", folder .. [[Statusbars\wooden-bar.tga]]},   -- by Celdor
 
     -- Fonts
     -- From Details
