@@ -2,6 +2,7 @@
 ## Title: LibCeldorMedia
 ## Author: Celdor
 ## License: All Rights Reserved
+## Version: @project-version@
 ## Notes: Missing media files for Addons and WeakAuras
 ## DefaultState: enabled
 

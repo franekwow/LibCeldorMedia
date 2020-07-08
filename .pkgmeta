@@ -1,0 +1,17 @@
+package-as: LibCeldorMedia
+
+enable-nolib-creation: no
+
+externals:
+    Libs/LibStub: svn://svn.wowace.com/wow/libstub/mainline/trunk
+    Libs/LibSharedMedia: https://repos.wowace.com/wow/libsharedmedia-3-0/trunk/LibSharedMedia-3.0
+
+ignore:
+  - README.md
+  - CONTRIBUTING.md
+
+license-output: LICENSE.txt
+
+manual-changelog:
+    filename: CHANGELOG.md
+    markup-type: markdown
