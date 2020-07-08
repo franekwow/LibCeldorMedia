@@ -1,2 +1,2 @@
-v1.01
+v1.0-release.1
 * Added a couple of more statusbars
