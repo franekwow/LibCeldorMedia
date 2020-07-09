@@ -23,6 +23,8 @@ local registerMedia = {
     {"statusbar", "Celdor Motif", folder .. [[Statusbars\motif.tga]]},
     {"statusbar", "Celdor Simplistic", folder .. [[Statusbars\simplistic.tga]]},
     {"statusbar", "Celdor Smooth", folder .. [[Statusbars\smooth.tga]]},
+    {"statusbar", "Celdor Stone", folder .. [[Statusbars\stone.tga]]},
+    {"statusbar", "Celdor Wooded Bar C", folder .. [[Statusbars\wooden-colour.tga]]},
     {"statusbar", "Celdor Wooded Bar", folder .. [[Statusbars\wooden.tga]]},
     -- Blizzard
     {"statusbar", "WorldState Score", [[Interface\WorldStateFrame\WORLDSTATEFINALSCORE-HIGHLIGHT.BLP]]},
